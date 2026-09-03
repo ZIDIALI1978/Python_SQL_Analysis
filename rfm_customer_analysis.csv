@@ -1,0 +1,101 @@
+CustomerID,Recency,Frequency,Monetary,FirstOrderDate,LastOrderDate,AOV,FirstName,LastName,CustomerName,Email,R_Score,F_Score,M_Score,RFM_Score,Segment
+1,17,5,10689.81,2026-07-10 13:23:00,2026-07-21 08:16:00.000000,2137.962,John,Williams,John Williams,john.williams1@email.com,4,1,2,412,New
+2,7,5,16536.5,2025-11-11 09:58:00,2026-07-30 19:11:00.000000,3307.3,Jane,Garcia,Jane Garcia,jane.garcia2@email.com,5,1,4,514,New
+3,32,5,16072.76,2026-05-01 17:26:00,2026-07-05 15:49:00.000000,3214.552,Michael,Wilson,Michael Wilson,michael.wilson3@email.com,3,1,4,314,Lost
+4,6,5,12579.46,2026-07-13 19:58:00,2026-08-01 08:19:00.000000,2515.892,Emily,Thomas,Emily Thomas,emily.thomas4@email.com,5,1,2,512,New
+5,189,5,22269.07,2025-03-28 13:50:00,2026-01-29 15:20:00.000000,4453.814,David,Harris,David Harris,david.harris5@email.com,1,1,5,115,Lost
+6,46,5,9279.6,2024-09-26 19:53:00,2026-06-22 13:47:00.000000,1855.92,Sarah,Moore,Sarah Moore,sarah.moore6@email.com,2,1,1,211,Lost
+7,19,5,13395.060000000001,2025-06-19 10:15:00,2026-07-18 18:40:00.000000,2679.012,Daniel,Walker,Daniel Walker,daniel.walker7@email.com,3,1,3,313,Lost
+8,87,5,20660.739999999998,2025-09-25 08:45:00,2026-05-11 15:17:00.000000,4132.147999999999,Olivia,Young,Olivia Young,olivia.young8@email.com,2,1,5,215,Lost
+9,55,5,11564.45,2026-01-08 18:45:00,2026-06-12 17:11:00.000000,2312.8900000000003,James,Johnson,James Johnson,james.johnson9@email.com,2,1,2,212,Lost
+10,2,5,8911.64,2026-03-12 09:43:00,2026-08-05 14:06:00.000000,1782.328,Sophia,Jones,Sophia Jones,sophia.jones10@email.com,5,1,1,511,New
+11,21,5,14276.22,2025-06-20 08:42:00,2026-07-16 17:06:00.000000,2855.2439999999997,William,Davis,William Davis,william.davis11@email.com,3,1,3,313,Lost
+12,2,5,10800.17,2026-07-03 16:04:00,2026-08-05 08:29:00.000000,2160.034,Emma,Anderson,Emma Anderson,emma.anderson12@email.com,5,1,2,512,New
+13,15,5,10694.710000000001,2025-08-27 13:30:00,2026-07-23 10:35:00.000000,2138.942,Joseph,White,Joseph White,joseph.white13@email.com,4,1,2,412,New
+14,177,5,10552.88,2025-04-25 18:17:00,2026-02-11 08:16:00.000000,2110.576,Ava,Thompson,Ava Thompson,ava.thompson14@email.com,1,1,2,112,Lost
+15,28,5,13662.24,2026-05-25 16:57:00,2026-07-10 12:42:00.000000,2732.448,Benjamin,Lewis,Benjamin Lewis,benjamin.lewis15@email.com,3,1,3,313,Lost
+16,43,5,13576.02,2025-11-27 19:33:00,2026-06-24 17:52:00.000000,2715.204,Mia,Allen,Mia Allen,mia.allen16@email.com,2,1,3,213,Lost
+17,9,5,11759.25,2026-01-27 15:26:00,2026-07-29 13:40:00.000000,2351.85,Lucas,Smith,Lucas Smith,lucas.smith17@email.com,4,1,2,412,New
+18,263,5,10273.93,2025-01-31 15:44:00,2025-11-16 17:37:00.000000,2054.786,Charlotte,Brown,Charlotte Brown,charlotte.brown18@email.com,1,1,1,111,Lost
+19,29,5,16319.28,2026-06-25 18:55:00,2026-07-09 10:33:00.000000,3263.856,Henry,Miller,Henry Miller,henry.miller19@email.com,3,1,4,314,Lost
+20,15,5,16811.52,2024-12-12 13:33:00,2026-07-23 09:01:00.000000,3362.304,Amelia,Taylor,Amelia Taylor,amelia.taylor20@email.com,4,1,5,415,New
+21,60,5,15345.13,2026-01-25 11:39:00,2026-06-08 08:01:00.000000,3069.026,Alexander,Jackson,Alexander Jackson,alexander.jackson21@email.com,2,2,4,224,Lost
+22,1,5,15242.1,2026-08-04 15:28:00,2026-08-06 14:34:34.141568,3048.42,Harper,Martin,Harper Martin,harper.martin22@email.com,5,2,4,524,New
+23,14,5,12849.48,2025-01-10 14:54:00,2026-07-24 08:29:00.000000,2569.8959999999997,Noah,Clark,Noah Clark,noah.clark23@email.com,4,2,3,423,New
+24,13,5,15047.4,2026-06-25 19:01:00,2026-07-25 08:01:00.000000,3009.48,Evelyn,Hall,Evelyn Hall,evelyn.hall24@email.com,4,2,4,424,New
+25,20,5,15587.32,2026-06-06 10:44:00,2026-07-18 08:39:00.000000,3117.464,Logan,King,Logan King,logan.king25@email.com,3,2,4,324,Lost
+26,30,5,10468.56,2025-10-29 15:43:00,2026-07-08 09:35:00.000000,2093.712,John,Williams,John Williams,john.williams26@email.com,3,2,1,321,Lost
+27,2,5,14909.17,2026-04-28 18:55:00,2026-08-04 16:05:00.000000,2981.834,Jane,Garcia,Jane Garcia,jane.garcia27@email.com,5,2,4,524,New
+28,261,5,15101.06,2025-04-29 10:15:00,2025-11-18 17:49:00.000000,3020.212,Michael,Wilson,Michael Wilson,michael.wilson28@email.com,1,2,4,124,Lost
+29,98,5,7837.93,2025-07-02 08:41:00,2026-04-30 15:56:00.000000,1567.586,Emily,Thomas,Emily Thomas,emily.thomas29@email.com,1,2,1,121,Lost
+30,36,5,16153.630000000001,2025-01-24 15:02:00,2026-07-02 10:17:00.000000,3230.726,David,Harris,David Harris,david.harris30@email.com,2,2,4,224,Lost
+31,17,5,20881.54,2025-08-12 10:19:00,2026-07-20 17:56:00.000000,4176.308,Sarah,Moore,Sarah Moore,sarah.moore31@email.com,4,2,5,425,New
+32,9,5,17549.260000000002,2025-06-21 15:10:00,2026-07-28 19:03:00.000000,3509.8520000000003,Daniel,Walker,Daniel Walker,daniel.walker32@email.com,4,2,5,425,New
+33,14,5,12744.640000000001,2026-04-30 12:24:00,2026-07-23 18:41:00.000000,2548.9280000000003,Olivia,Young,Olivia Young,olivia.young33@email.com,4,2,3,423,New
+34,12,5,14137.23,2025-10-06 17:39:00,2026-07-25 16:44:00.000000,2827.446,James,Johnson,James Johnson,james.johnson34@email.com,4,2,3,423,New
+35,44,5,11297.11,2025-11-18 13:48:00,2026-06-24 08:02:00.000000,2259.422,Sophia,Jones,Sophia Jones,sophia.jones35@email.com,2,2,2,222,Lost
+36,4,5,5052.14,2025-08-02 17:53:00,2026-08-03 09:48:00.000000,1010.4280000000001,William,Davis,William Davis,william.davis36@email.com,5,2,1,521,New
+37,13,5,9587.76,2026-03-05 17:51:00,2026-07-25 14:14:00.000000,1917.5520000000001,Emma,Anderson,Emma Anderson,emma.anderson37@email.com,4,2,1,421,New
+38,37,5,16287.15,2025-08-09 16:14:00,2026-06-30 18:17:00.000000,3257.43,Joseph,White,Joseph White,joseph.white38@email.com,2,2,4,224,Lost
+39,100,5,13223.19,2025-09-13 17:52:00,2026-04-29 10:24:00.000000,2644.638,Ava,Thompson,Ava Thompson,ava.thompson39@email.com,1,2,3,123,Lost
+40,53,5,18862.03,2025-11-13 14:49:00,2026-06-15 09:14:00.000000,3772.406,Benjamin,Lewis,Benjamin Lewis,benjamin.lewis40@email.com,2,2,5,225,Lost
+41,103,5,14384.07,2024-10-20 11:14:00,2026-04-26 08:41:00.000000,2876.814,Mia,Allen,Mia Allen,mia.allen41@email.com,1,3,3,133,At Risk
+42,17,5,7760.03,2026-03-05 16:36:00,2026-07-20 15:36:00.000000,1552.0059999999999,Lucas,Smith,Lucas Smith,lucas.smith42@email.com,3,3,1,331,Lost
+43,66,5,16435.71,2025-06-27 19:57:00,2026-06-01 15:32:00.000000,3287.142,Charlotte,Brown,Charlotte Brown,charlotte.brown43@email.com,2,3,4,234,At Risk
+44,28,5,10983.67,2024-09-18 15:23:00,2026-07-10 09:26:00.000000,2196.734,Henry,Miller,Henry Miller,henry.miller44@email.com,3,3,2,332,Lost
+45,57,5,13772.95,2025-03-11 18:06:00,2026-06-11 12:56:00.000000,2754.59,Amelia,Taylor,Amelia Taylor,amelia.taylor45@email.com,2,3,3,233,At Risk
+46,194,5,12532.72,2024-12-10 10:43:00,2026-01-24 16:38:00.000000,2506.544,Alexander,Jackson,Alexander Jackson,alexander.jackson46@email.com,1,3,2,132,At Risk
+47,1,5,7677.599999999999,2025-04-26 17:43:00,2026-08-05 17:06:00.000000,1535.52,Harper,Martin,Harper Martin,harper.martin47@email.com,5,3,1,531,Lost
+48,39,5,10576.84,2026-03-26 15:25:00,2026-06-29 09:26:00.000000,2115.368,Noah,Clark,Noah Clark,noah.clark48@email.com,2,3,2,232,At Risk
+49,21,5,17832.93,2026-03-09 13:38:00,2026-07-17 14:27:00.000000,3566.5860000000002,Evelyn,Hall,Evelyn Hall,evelyn.hall49@email.com,3,3,5,335,Lost
+50,9,5,8865.43,2026-06-30 09:02:00,2026-07-28 15:53:00.000000,1773.086,Logan,King,Logan King,logan.king50@email.com,4,3,1,431,Lost
+51,38,5,20514.27,2026-02-18 14:16:00,2026-06-30 10:36:00.000000,4102.854,John,Williams,John Williams,john.williams51@email.com,2,3,5,235,At Risk
+52,169,5,17624.239999999998,2025-10-26 10:38:00,2026-02-19 10:45:00.000000,3524.8479999999995,Jane,Garcia,Jane Garcia,jane.garcia52@email.com,1,3,5,135,At Risk
+53,16,5,6447.12,2026-03-14 14:25:00,2026-07-21 16:58:00.000000,1289.424,Michael,Wilson,Michael Wilson,michael.wilson53@email.com,4,3,1,431,Lost
+54,9,5,12375.85,2026-04-23 10:20:00,2026-07-29 14:16:00.000000,2475.17,Emily,Thomas,Emily Thomas,emily.thomas54@email.com,4,3,2,432,Lost
+55,45,5,14776.14,2025-11-02 17:09:00,2026-06-22 15:36:00.000000,2955.228,David,Harris,David Harris,david.harris55@email.com,2,3,4,234,At Risk
+56,152,5,13404.15,2025-06-27 16:10:00,2026-03-08 09:25:00.000000,2680.83,Sarah,Moore,Sarah Moore,sarah.moore56@email.com,1,3,3,133,At Risk
+57,23,5,14686.52,2025-08-08 09:37:00,2026-07-14 17:35:00.000000,2937.304,Daniel,Walker,Daniel Walker,daniel.walker57@email.com,3,3,3,333,Lost
+58,7,5,12813.94,2026-01-24 18:51:00,2026-07-31 13:56:00.000000,2562.788,Olivia,Young,Olivia Young,olivia.young58@email.com,5,3,3,533,Lost
+59,291,5,14113.699999999999,2025-02-26 10:17:00,2025-10-19 15:03:00.000000,2822.74,James,Johnson,James Johnson,james.johnson59@email.com,1,3,3,133,At Risk
+60,25,5,10185.52,2025-07-09 14:50:00,2026-07-12 15:16:00.000000,2037.104,Sophia,Jones,Sophia Jones,sophia.jones60@email.com,3,3,1,331,Lost
+61,19,5,12237.31,2026-04-26 10:08:00,2026-07-18 17:15:00.000000,2447.462,William,Davis,William Davis,william.davis61@email.com,3,4,2,342,Loyal
+62,7,5,7816.94,2026-01-24 19:02:00,2026-07-31 13:31:00.000000,1563.388,Emma,Anderson,Emma Anderson,emma.anderson62@email.com,4,4,1,441,Loyal
+63,3,5,11111.4,2026-06-20 08:57:00,2026-08-04 10:28:00.000000,2222.2799999999997,Joseph,White,Joseph White,joseph.white63@email.com,5,4,2,542,Loyal
+64,22,5,16339.91,2026-06-23 09:29:00,2026-07-15 17:48:00.000000,3267.982,Ava,Thompson,Ava Thompson,ava.thompson64@email.com,3,4,4,344,Loyal
+65,1,5,15325.759999999998,2025-03-07 08:43:00,2026-08-05 17:35:00.000000,3065.1519999999996,Benjamin,Lewis,Benjamin Lewis,benjamin.lewis65@email.com,5,4,4,544,Champions
+66,61,5,8859.99,2025-10-01 19:48:00,2026-06-07 14:09:00.000000,1771.998,Mia,Allen,Mia Allen,mia.allen66@email.com,2,4,1,241,At Risk
+67,5,5,7427.38,2025-10-21 08:28:00,2026-08-01 19:51:00.000000,1485.476,Lucas,Smith,Lucas Smith,lucas.smith67@email.com,5,4,1,541,Loyal
+68,36,5,11993.98,2025-09-02 12:16:00,2026-07-01 16:05:00.000000,2398.796,Charlotte,Brown,Charlotte Brown,charlotte.brown68@email.com,2,4,2,242,At Risk
+69,13,5,20559.0,2025-08-06 08:44:00,2026-07-25 09:07:00.000000,4111.8,Henry,Miller,Henry Miller,henry.miller69@email.com,4,4,5,445,Champions
+70,58,5,14505.97,2025-11-26 13:50:00,2026-06-10 08:11:00.000000,2901.194,Amelia,Taylor,Amelia Taylor,amelia.taylor70@email.com,2,4,3,243,At Risk
+71,3,5,21728.22,2024-11-07 08:28:00,2026-08-04 10:24:00.000000,4345.644,Alexander,Jackson,Alexander Jackson,alexander.jackson71@email.com,5,4,5,545,Champions
+72,65,5,10642.86,2025-06-11 10:44:00,2026-06-02 15:02:00.000000,2128.572,Harper,Martin,Harper Martin,harper.martin72@email.com,2,4,2,242,At Risk
+73,1,5,14362.59,2026-07-18 12:20:00,2026-08-05 18:22:00.000000,2872.518,Noah,Clark,Noah Clark,noah.clark73@email.com,5,4,3,543,Loyal
+74,146,5,16608.39,2025-03-08 19:48:00,2026-03-14 10:27:00.000000,3321.678,Evelyn,Hall,Evelyn Hall,evelyn.hall74@email.com,1,4,4,144,At Risk
+75,35,5,15360.029999999999,2025-09-26 12:18:00,2026-07-02 18:09:00.000000,3072.006,Logan,King,Logan King,logan.king75@email.com,3,4,4,344,Loyal
+76,83,5,17554.78,2025-10-15 15:36:00,2026-05-16 10:00:00.000000,3510.9559999999997,John,Williams,John Williams,john.williams76@email.com,2,4,5,245,At Risk
+77,11,5,13933.07,2026-06-30 19:02:00,2026-07-26 19:55:00.000000,2786.614,Jane,Garcia,Jane Garcia,jane.garcia77@email.com,4,4,3,443,Loyal
+78,30,5,17293.82,2025-05-23 10:28:00,2026-07-08 08:57:00.000000,3458.764,Michael,Wilson,Michael Wilson,michael.wilson78@email.com,3,4,5,345,Loyal
+79,16,5,13991.43,2026-06-18 09:33:00,2026-07-21 18:16:00.000000,2798.286,Emily,Thomas,Emily Thomas,emily.thomas79@email.com,4,4,3,443,Loyal
+80,211,5,15600.02,2025-10-30 08:34:00,2026-01-07 15:16:00.000000,3120.004,David,Harris,David Harris,david.harris80@email.com,1,4,4,144,At Risk
+81,112,5,14219.86,2025-08-20 09:31:00,2026-04-16 15:14:00.000000,2843.972,Sarah,Moore,Sarah Moore,sarah.moore81@email.com,1,5,3,153,At Risk
+82,133,5,12132.32,2025-05-07 10:48:00,2026-03-27 08:03:00.000000,2426.464,Daniel,Walker,Daniel Walker,daniel.walker82@email.com,1,5,2,152,At Risk
+83,49,5,6501.98,2025-10-12 11:16:00,2026-06-19 12:33:00.000000,1300.396,Olivia,Young,Olivia Young,olivia.young83@email.com,2,5,1,251,At Risk
+84,20,5,11712.03,2026-02-28 15:23:00,2026-07-18 09:24:00.000000,2342.406,James,Johnson,James Johnson,james.johnson84@email.com,3,5,2,352,Loyal
+85,3,5,17595.89,2026-07-24 12:39:00,2026-08-03 17:33:00.000000,3519.178,Sophia,Jones,Sophia Jones,sophia.jones85@email.com,5,5,5,555,Champions
+86,117,5,10556.380000000001,2025-10-10 08:12:00,2026-04-12 13:17:00.000000,2111.2760000000003,William,Davis,William Davis,william.davis86@email.com,1,5,2,152,At Risk
+87,8,5,16447.64,2026-07-11 08:34:00,2026-07-30 12:47:00.000000,3289.528,Emma,Anderson,Emma Anderson,emma.anderson87@email.com,4,5,4,454,Champions
+88,3,5,20996.309999999998,2026-07-19 08:46:00,2026-08-03 18:25:00.000000,4199.262,Joseph,White,Joseph White,joseph.white88@email.com,5,5,5,555,Champions
+89,22,5,9014.85,2026-05-20 08:14:00,2026-07-15 18:52:00.000000,1802.97,Ava,Thompson,Ava Thompson,ava.thompson89@email.com,3,5,1,351,Loyal
+90,225,5,18956.72,2025-07-10 19:58:00,2025-12-25 09:01:00.000000,3791.344,Benjamin,Lewis,Benjamin Lewis,benjamin.lewis90@email.com,1,5,5,155,At Risk
+91,8,5,17021.11,2026-07-01 12:05:00,2026-07-30 11:21:00.000000,3404.222,Mia,Allen,Mia Allen,mia.allen91@email.com,4,5,5,455,Champions
+92,125,5,20274.170000000002,2024-10-13 10:29:00,2026-04-03 16:10:00.000000,4054.8340000000003,Lucas,Smith,Lucas Smith,lucas.smith92@email.com,1,5,5,155,At Risk
+93,3,5,6876.570000000001,2026-06-18 11:23:00,2026-08-04 13:39:00.000000,1375.314,Charlotte,Brown,Charlotte Brown,charlotte.brown93@email.com,5,5,1,551,Loyal
+94,2,5,9883.64,2025-08-10 11:04:00,2026-08-05 12:34:00.000000,1976.7279999999998,Henry,Miller,Henry Miller,henry.miller94@email.com,5,5,1,551,Loyal
+95,6,5,21619.81,2026-01-26 11:45:00,2026-08-01 12:12:00.000000,4323.962,Amelia,Taylor,Amelia Taylor,amelia.taylor95@email.com,5,5,5,555,Champions
+96,180,5,6121.98,2025-06-20 10:00:00,2026-02-08 10:17:00.000000,1224.396,Alexander,Jackson,Alexander Jackson,alexander.jackson96@email.com,1,5,1,151,At Risk
+97,103,5,14454.43,2025-09-20 13:05:00,2026-04-25 15:16:00.000000,2890.886,Harper,Martin,Harper Martin,harper.martin97@email.com,1,5,3,153,At Risk
+98,26,5,11782.38,2025-10-23 18:27:00,2026-07-11 15:11:00.000000,2356.4759999999997,Noah,Clark,Noah Clark,noah.clark98@email.com,3,5,2,352,Loyal
+99,3,5,15844.470000000001,2026-05-04 11:38:00,2026-08-03 15:18:00.000000,3168.8940000000002,Evelyn,Hall,Evelyn Hall,evelyn.hall99@email.com,5,5,4,554,Champions
+100,31,5,19918.81,2024-10-13 17:14:00,2026-07-07 11:40:00.000000,3983.762,Logan,King,Logan King,logan.king100@email.com,3,5,5,355,Loyal
