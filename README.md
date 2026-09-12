@@ -684,3 +684,10 @@ Skills demonstrated:
 
 \- GitHub
 
+
+## 🌐 Live Dashboard
+
+You can view the deployed Streamlit dashboard here:
+
+**Live App:** https://ali-retail-ecommerce-analytics.streamlit.app
+
