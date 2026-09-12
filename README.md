@@ -621,7 +621,31 @@ Streamlit Dashboard
 
 
 \---
+---
 
+## 📸 Dashboard Screenshots
+
+### Executive Dashboard
+
+![Executive Dashboard](screenshots/01_Executive_Dashboard.png)
+
+### Sales Analytics
+
+![Sales Analytics](screenshots/02_Sales_Analytics.png)
+
+### Customer Intelligence
+
+![Customer Intelligence](screenshots/03_Customer_Intelligence.png)
+
+### Product & Inventory
+
+![Product & Inventory](screenshots/04_Product_Inventory.png)
+
+### Operations Dashboard
+
+![Operations Dashboard](screenshots/05_Operations.png)
+
+---
 
 
 \## 👨‍💻 Author
