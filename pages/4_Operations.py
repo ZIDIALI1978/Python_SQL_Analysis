@@ -17,9 +17,9 @@ st.set_page_config(
 # ============================================================
 # PROJECT FILE
 # ============================================================
-
-base_folder = r"C:\Users\win\Desktop\sql\Python_SQL_Analysis"
-
+base_folder = os.path.dirname(
+    os.path.dirname(os.path.abspath(__file__))
+)
 excel_file = os.path.join(
     base_folder,
     "Retail_ECommerce_Final_Portfolio.xlsx"
