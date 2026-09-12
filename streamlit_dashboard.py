@@ -1418,22 +1418,20 @@ try:
         )
 
 
-    # Delivered
+        # Delivered
 
     delivered = delivery_metrics.get(
-        "Delivered",
+        "Delivered Shipments",
         0
     )
 
     with col2:
-
         st.metric(
             "✅ Delivered",
             f"{delivered:,.0f}"
             if pd.notna(delivered)
             else "0"
         )
-
 
     # Average Delivery Days
 

@@ -171,75 +171,62 @@ if not delivery_summary.empty:
     # Detect values
     # --------------------------------------------------------
 
-    summary_dict = {}
-
-    for _, row in delivery_summary.iterrows():
-
-        if len(row) >= 2:
-
-            key = str(row.iloc[0]).strip()
-
-            value = row.iloc[1]
-
-            summary_dict[key] = value
-
-    # --------------------------------------------------------
-    # KPI cards
+       # --------------------------------------------------------
+    # KPI VALUES - Directly from Delivery Summary
     # --------------------------------------------------------
 
-    total_shipments = summary_dict.get(
-        "Total Shipments"
+    total_shipments = pd.to_numeric(
+        delivery_summary.iloc[0, 1],
+        errors="coerce"
     )
 
-    delivered = summary_dict.get(
-        "Delivered"
+    delivered = pd.to_numeric(
+        delivery_summary.iloc[1, 1],
+        errors="coerce"
     )
 
-    pending = summary_dict.get(
-        "Pending"
+    pending = pd.to_numeric(
+        delivery_summary.iloc[2, 1],
+        errors="coerce"
     )
 
-    avg_delivery = summary_dict.get(
-        "Average Delivery Days"
+    avg_delivery = pd.to_numeric(
+        delivery_summary.iloc[5, 1],
+        errors="coerce"
     )
-
     col1, col2, col3, col4 = st.columns(4)
 
     with col1:
-
-        if pd.notna(total_shipments):
-
-            st.metric(
-                "📦 Total Shipments",
-                f"{float(total_shipments):,.0f}"
-            )
+        st.metric(
+            "📦 Total Shipments",
+            f"{float(total_shipments):,.0f}"
+            if pd.notna(total_shipments)
+            else "0"
+        )
 
     with col2:
-
-        if pd.notna(delivered):
-
-            st.metric(
-                "✅ Delivered",
-                f"{float(delivered):,.0f}"
-            )
+        st.metric(
+            "✅ Delivered",
+            f"{float(delivered):,.0f}"
+            if pd.notna(delivered)
+            else "0"
+        )
 
     with col3:
-
-        if pd.notna(pending):
-
-            st.metric(
-                "⏳ Pending",
-                f"{float(pending):,.0f}"
-            )
+        st.metric(
+            "⏳ Pending",
+            f"{float(pending):,.0f}"
+            if pd.notna(pending)
+            else "0"
+        )
 
     with col4:
-
-        if pd.notna(avg_delivery):
-
-            st.metric(
-                "🚚 Avg Delivery Days",
-                f"{float(avg_delivery):,.2f}"
-            )
+        st.metric(
+            "⏱️ Avg Delivery Days",
+            f"{float(avg_delivery):.2f}"
+            if pd.notna(avg_delivery)
+            else "N/A"
+        )
 
 
 # ============================================================
