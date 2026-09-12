@@ -249,11 +249,10 @@ total_revenue = (
 
 
 total_profit = (
-    filtered_sales["Profit"].sum()
-    if "Profit" in filtered_sales.columns
+    filtered_sales["TotalProfit"].sum()
+    if "TotalProfit" in filtered_sales.columns
     else 0
 )
-
 
 total_orders = (
     filtered_orders["OrderID"].nunique()
@@ -471,11 +470,11 @@ st.divider()
 st.subheader("📈 Profit Analysis")
 
 
-if product_column and "Profit" in filtered_sales.columns:
+if product_column and "TotalProfit" in filtered_sales.columns:
 
     top_profit_products = (
         filtered_sales
-        .groupby(product_column)["Profit"]
+        .groupby(product_column)["TotalProfit"]
         .sum()
         .sort_values(ascending=False)
         .head(10)

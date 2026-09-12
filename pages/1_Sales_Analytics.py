@@ -132,24 +132,17 @@ else:
 revenue = 0
 
 if "Revenue" in filtered_sales.columns:
-
     revenue = filtered_sales["Revenue"].sum()
-
 
 profit = 0
 
-if "Profit" in filtered_sales.columns:
-
-    profit = filtered_sales["Profit"].sum()
-
+if "TotalProfit" in filtered_sales.columns:
+    profit = filtered_sales["TotalProfit"].sum()
 
 quantity = 0
 
 if "Quantity" in filtered_sales.columns:
-
     quantity = filtered_sales["Quantity"].sum()
-
-
 orders = 0
 
 if "OrderID" in filtered_sales.columns:
@@ -365,12 +358,12 @@ st.subheader("💎 Top 10 Products by Profit")
 if (
     product_column
     and
-    "Profit" in filtered_sales.columns
+    "TotalProfit" in filtered_sales.columns
 ):
 
     top_profit = (
         filtered_sales
-        .groupby(product_column)["Profit"]
+        .groupby(product_column)["TotalProfit"]
         .sum()
         .sort_values(
             ascending=False
