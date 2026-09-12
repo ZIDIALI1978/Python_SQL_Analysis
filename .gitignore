@@ -1,21 +1,39 @@
+# Virtual environments
 venv/
 env/
 .venv/
 
+# Python cache
 __pycache__/
 *.py[cod]
 
+# Environment variables and secrets
+.env
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Django / local database files
 db.sqlite3
 
-.env
-
+# Generated media/static
 media/
-
 staticfiles/
 
+# Logs and temporary files
 *.log
+*.tmp
 
+# IDE
 .vscode/
 .idea/
 
+# OS files
 .DS_Store
+Thumbs.db
+
+# Python build files
+build/
+dist/
+*.egg-info/
